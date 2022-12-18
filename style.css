@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-inner,
+.carousel-item {
+    height: 100vh;
+    max-height: 500px;
+}
+
+.carousel-inner h3 {
+    font-size: 60px;
+
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.bg-gradient {
+    background: #eff2f5;
+
+}
+
+.container .bg-gradient {
+    margin: none;
+}
+
+.social-media ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.social-media li {
+    font-size: 16px;
+    padding-inline: 5px;
+}
+
+.social-media-color {
+    color: black;
+}
+
+footer {
+    background: #c0ccd8;
+}
